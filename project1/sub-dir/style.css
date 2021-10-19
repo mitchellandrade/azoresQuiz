@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    
+}
+body {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightslategray;
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10 2px black;
+    padding: 10px;
+
+}
+.grid {
+    display: grid;
+    gap: 10px;
+    margin: 20px
+}
+#question {
+    font-size: 3rem;
+}
+.btn{
+    font-size: 2rem;
+    border-radius: 5px;
+}
+.btn:hover {
+    transform: scale(1.04);
+}
+.btn.correct {
+    background-color: green;
+}
+.btn.wrong {
+    background-color: red;
+}
+.start-btn, .next-btn {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    background-color: crimson;
+}
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+
